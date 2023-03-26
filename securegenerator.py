@@ -1,7 +1,6 @@
 import random
 import string
 from passlib.hash import pbkdf2_sha256
-
 length=int(input("How many characters do you want your password to be? "))
 
 def generate_password(length=length):
